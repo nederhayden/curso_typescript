@@ -79,3 +79,12 @@ function showDogDetails(dog) {
 }
 showDogDetails(turca);
 showDogDetails(bob);
+function userReview(review) {
+    if (!review) {
+        console.log("Nenhuma avaliacao");
+    }
+    console.log(`A nota que voce deu foi: ${review}, obrigado`);
+}
+userReview(false);
+userReview(5);
+userReview(2);

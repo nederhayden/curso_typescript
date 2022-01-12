@@ -90,3 +90,17 @@ function showDogDetails(dog: Dog) {
 
 showDogDetails(turca);
 showDogDetails(bob);
+
+// DESAFIO 3
+type Review = number | boolean;
+
+function userReview(review?: Review) {
+  if (!review) {
+    console.log("Nenhuma avaliacao");
+  }
+  console.log(`A nota que voce deu foi: ${review}, obrigado`);
+}
+
+userReview(false);
+userReview(5);
+userReview(2);
