@@ -26,3 +26,8 @@ console.log(a);
 let ann = "Teste";
 let inf = "Teste";
 console.log("testando hot reload com o comando tsc -w");
+// DESAFIO 2
+const n = 10;
+const numbertoString = n.toString();
+const printNumber = `Numero ${numbertoString}`;
+console.log(printNumber);

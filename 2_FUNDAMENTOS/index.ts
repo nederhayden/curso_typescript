@@ -1,48 +1,57 @@
 // 1 - numbers
 let x: number = 10;
 
-console.log(x)
+console.log(x);
 
-x = 16
+x = 16;
 
-console.log(typeof x)
+console.log(typeof x);
 
-const y: number = 15.5555
+const y: number = 15.5555;
 
-console.log(typeof y)
+console.log(typeof y);
 
-console.log(y)
+console.log(y);
 
-console.log(y.toPrecision(3))
+console.log(y.toPrecision(3));
 
 // 2 - strings
-const firstName: string = "Neder"
+const firstName: string = "Neder";
 
-console.log(firstName.toUpperCase())
+console.log(firstName.toUpperCase());
 
-let fullName: string 
+let fullName: string;
 
-const lastName: string = "Hayden"
+const lastName: string = "Hayden";
 
-fullName = firstName + " " + lastName
+fullName = firstName + " " + lastName;
 
-console.log(fullName)
+console.log(fullName);
 
-console.log(typeof fullName)
+console.log(typeof fullName);
 
 // 3 - boolean
-let a: boolean = false
+let a: boolean = false;
 
-console.log(a)
-console.log(typeof a)
+console.log(a);
+console.log(typeof a);
 
-a = true
+a = true;
 
-console.log(a)
+console.log(a);
 
 // 4 - inference e annotation
-let ann: string = "Teste"
+let ann: string = "Teste";
 
-let inf = "Teste"
+let inf = "Teste";
 
-console.log("testando hot reload com o comando tsc -w")
+console.log("testando hot reload com o comando tsc -w");
+
+// DESAFIO 2
+const n: number = 10;
+
+const numbertoString = n.toString();
+
+const printNumber: string = `Numero ${numbertoString}`;
+
+console.log(printNumber);
